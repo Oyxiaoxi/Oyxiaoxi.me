@@ -12,8 +12,6 @@ description: France Travel itineraries。
   <Firefly/>
 </ClientOnly>
 
-## France
-
 - 卢浮宫 → 杜乐丽花园 → 协和广场 → 亚历山大三世桥 → 塞纳河游船
 - 奥赛博物馆 → 橘园美术馆 → 香榭丽舍大街 → Laduree → 巴黎凯旋门 → 埃菲尔铁塔
 - 卢森堡公园 → 花神咖啡馆 → 先贤祠 → 莎士比亚书店 → 巴黎圣母院 → 蓬皮杜国家艺术文化中心

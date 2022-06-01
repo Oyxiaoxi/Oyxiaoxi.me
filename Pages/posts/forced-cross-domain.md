@@ -12,8 +12,6 @@ description: Forced Cross Domain。
   <Firefly/>
 </ClientOnly>
 
-## 强制 Chrome 流星器跨域
-
 Chrome 93版本以前跨域
 ```bash
 open -a /Applications/Google| Chrome.app --args--disable-web-security--user-data-dir=/User/Oyxiaoxi/Documents/MyChromeDevUserData

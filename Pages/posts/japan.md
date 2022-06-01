@@ -12,8 +12,6 @@ description: Japan Travel itineraries。
   <Firefly/>
 </ClientOnly>
 
-## Japan
-
 > 樱花，御守很有名，五色小火车。
 
 - 东京 → 箱根 → 京都 → 宇治 → 京都 → 奈良 → 神户 → 大阪

@@ -12,7 +12,7 @@ const route = useRoute()
       English Only
     </button>
 
-    <div mb-0 flex="~ gap-3" text-3xl>
+    <div mb-0 flex="~ gap-3" text-2xl>
       <router-link to="/posts" class="!border-none !font-400" :class="route.path === '/posts' ? '' : inactiveStyle">
         Blog
       </router-link>
@@ -21,6 +21,9 @@ const route = useRoute()
       </router-link>
       <router-link to="/travel" class="!border-none !font-400" :class="route.path === '/travel' ? '' : inactiveStyle">
         Travel
+      </router-link>
+      <router-link to="/prose" class="!border-none !font-400" :class="route.path === '/prose' ? '' : inactiveStyle">
+        Prose
       </router-link>
     </div>
   </div>

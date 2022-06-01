@@ -12,8 +12,6 @@ description: Northern Europe Travel itineraries。
   <Firefly/>
 </ClientOnly>
 
-## Northern Europe
-
 > 冷，性冷淡风，北极熊，极光
 
 - 瑞典 → 挪威 → 丹麦 → 芬兰

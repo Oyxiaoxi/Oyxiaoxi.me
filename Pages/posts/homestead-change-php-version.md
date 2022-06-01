@@ -12,8 +12,6 @@ description: Homestead Change PhP Version。
   <Firefly/>
 </ClientOnly>
 
-## Homestead 切换 PHP 版本
-
 Laravel 环境
 ```bash
 # 更新 vagrant box 盒子
