@@ -25,7 +25,7 @@ async function run() {
 }
 
 async function buildBlogRSS() {
-  const files = await fg('pages/posts/*.md')
+  const files = await fg('Pages/posts/*.md')
 
   const options = {
     title: 'Oyxiaoxi',
@@ -60,7 +60,7 @@ async function buildBlogRSS() {
             date: new Date(data.date),
             content: html,
             author: [AUTHOR],
-            link: DOMAIN + i.replace(/^pages(.+)\.md$/, '$1'),
+            link: DOMAIN + i.replace(/^Pages(.+)\.md$/, '$1'),
           }
         }),
     ))
@@ -72,7 +72,7 @@ async function buildBlogRSS() {
 }
 
 async function buildNotesRSS() {
-  const raw = await fs.readFile('pages/notes.md', 'utf-8')
+  const raw = await fs.readFile('Pages/notes.md', 'utf-8')
 
   const options = {
     title: 'Oyxiaoxi\'s Notes',
