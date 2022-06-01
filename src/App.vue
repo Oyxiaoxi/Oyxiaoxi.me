@@ -11,7 +11,8 @@ useHead({
 </script>
 
 <template>
-  <main class="px-7 py-10">
+  <NavBar />
+  <main class="container px-7 py-10">
     <router-view />
   </main>
 </template>
