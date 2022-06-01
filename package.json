@@ -16,6 +16,7 @@
     "dayjs": "^1.11.0",
     "nprogress": "^0.2.0",
     "prism-theme-vars": "^0.2.2",
+    "sass": "^1.52.1",
     "vue": "^3.2.31",
     "vue-router": "4.0.14"
   },

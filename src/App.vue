@@ -12,10 +12,8 @@ useHead({
 
 <template>
   <NavBar />
-  <main class="container px-7 py-10">
+  <main class="container px-10 py-10">
     <router-view />
+    <Footer />
   </main>
 </template>
-
-<style>
-</style>

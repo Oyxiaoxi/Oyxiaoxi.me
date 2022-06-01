@@ -106,7 +106,6 @@ const config: UserConfig = {
           }),
         })
 
-        // @ts-expect-error anyway
         md.use(LinkAttributes, {
           matcher: (link: string) => /^https?:\/\//.test(link),
           attrs: {

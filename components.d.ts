@@ -5,9 +5,8 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    Firefly: typeof import('./src/components/Firefly.vue')['default']
     NavBar: typeof import('./src/components/NavBar.vue')['default']
-    RiMoonLine: typeof import('~icons/ri/moon-line')['default']
-    RiSunLine: typeof import('~icons/ri/sun-line')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     ToggleTheme: typeof import('./src/components/ToggleTheme.vue')['default']
