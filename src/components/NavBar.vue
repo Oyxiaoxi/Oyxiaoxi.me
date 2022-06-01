@@ -29,6 +29,12 @@ import { isDark } from '~/logics'
         <router-link to="/photos" title="Photo" class="w-8 text-center">
           <div i-logos:google-photos />
         </router-link>
+        <router-link to="/reviews" title="Reviews" class="w-8 text-center lt-md:hidden">
+          <div i-icon-park-solid:safe-retrieval />
+        </router-link>
+        <router-link to="/travel" title="Travel" class="w-8 text-center lt-md:hidden">
+          <div i-twemoji:small-airplane />
+        </router-link>
         <a
           href="https://twitter.com/Oyxiaoxi"
           target="_blank"

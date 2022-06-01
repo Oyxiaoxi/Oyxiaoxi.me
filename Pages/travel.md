@@ -1,5 +1,5 @@
 ---
-title: Notes - Oyxiaoxi
+title: Travel - Oyxiaoxi
 display: ''
 ---
 
@@ -9,4 +9,4 @@ display: ''
   <Firefly/>
 </ClientOnly>
 
-<ListPosts type="notes"/>
+<ListPosts type="travel"/>
