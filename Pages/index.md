@@ -13,3 +13,5 @@ Hi there, I am Oyxiaoxi, a Chinese freelance Full Stack Developer.
 He has deep knowledge and years of practical experience in Swift, C and web programming. Using these skills to create solutions such as applications and common frameworks.
 
 He also loves travelling, reading and photography. He is always willing to try new things and continues to learn from them.
+
+> 清醒知趣，保持自信，一切尽意，百事从欢。
