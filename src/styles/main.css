@@ -1,20 +1,5 @@
-:root {
-  --c-bg: #fff;
-  --c-scrollbar: #eee;
-  --c-scrollbar-hover: #bbb;
-}
-
 html {
   background-color: var(--c-bg);
-}
-
-html.dark {
-  --c-bg: #212020;
-  --c-scrollbar: rgb(66, 65, 65);
-  --c-scrollbar-hover: rgb(24, 23, 23);
-}
-
-html {
   overflow: scroll;
 }
 
@@ -23,7 +8,7 @@ html {
 }
 
 #nprogress .bar {
-  background: #395;
+  background: #0891b2;
   opacity: 0.75;
   position: fixed;
   z-index: 1031;

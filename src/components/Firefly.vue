@@ -1,5 +1,5 @@
 <template>
-  <div v-for="(item, index) in 15" :key="index" class="firefly" />
+  <div v-for="(item, index) in 14" :key="index" class="firefly" />
 </template>
 
 <style scoped lang="scss">

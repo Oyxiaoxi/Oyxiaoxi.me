@@ -5,11 +5,17 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    AppLink: typeof import('./src/components/AppLink.vue')['default']
     Firefly: typeof import('./src/components/Firefly.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
+    ListPhotos: typeof import('./src/components/ListPhotos.vue')['default']
+    ListPosts: typeof import('./src/components/ListPosts.vue')['default']
+    ListProjects: typeof import('./src/components/ListProjects.vue')['default']
     NavBar: typeof import('./src/components/NavBar.vue')['default']
+    Post: typeof import('./src/components/Post.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SubNav: typeof import('./src/components/SubNav.vue')['default']
     ToggleTheme: typeof import('./src/components/ToggleTheme.vue')['default']
   }
 }

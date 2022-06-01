@@ -1,12 +1,15 @@
 import '@unocss/reset/tailwind.css'
 import './styles/main.css'
 import './styles/navbar.css'
+import './styles/prose.css'
 import './styles/markdown.css'
 import 'uno.css'
 
 import autoRoutes from 'pages-generated'
 import { ViteSSG } from 'vite-ssg'
 import NProgress from 'nprogress'
+import dayjs from 'dayjs'
+import LocalizedFormat from 'dayjs/plugin/localizedFormat.js'
 
 import App from './App.vue'
 
@@ -19,10 +22,18 @@ const routes = autoRoutes.map((i) => {
   }
 })
 
+const scrollBehavior = (to: any, from: any, savedPosition: any) => {
+  if (savedPosition)
+    return savedPosition
+  else
+    return { top: 0 }
+}
+
 const createApp = ViteSSG(
   App,
-  { routes },
+  { routes, scrollBehavior },
   ({ router, isClient }) => {
+    dayjs.extend(LocalizedFormat)
     if (isClient) {
       router.beforeEach(() => { NProgress.start() })
       router.afterEach(() => { NProgress.done() })

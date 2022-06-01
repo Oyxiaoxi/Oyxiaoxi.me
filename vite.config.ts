@@ -85,6 +85,12 @@ const config: UserConfig = {
           route.meta = Object.assign(route.meta || {}, { frontmatter: data })
         }
 
+        if (!path.includes('photos.md')) {
+          const md = fs.readFileSync(path, 'utf-8')
+          const { data } = matter(md)
+          route.meta = Object.assign(route.meta || {}, { frontmatter: data })
+        }
+
         return route
       },
     }),
