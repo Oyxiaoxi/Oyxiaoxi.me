@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { isDark } from "~/logics";
+import { isDark } from '~/logics'
 function toggleDark() {
-  isDark.value = !isDark.value;
+  isDark.value = !isDark.value
 }
 </script>
 

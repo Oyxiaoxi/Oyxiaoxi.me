@@ -4,7 +4,7 @@ defineProps<{ comments: Record<string, any[]> }>()
 
 <template>
   <div class="grid grid-cols-1 gap-4 sm:grid-cols-1">
-    <div v-for="(person, index) in comments" :key="person.index" class="relative rounded-lg py-2 shadow-sm flex items-center space-x-3">
+    <div v-for="person in comments" :key="person.name" class="relative rounded-lg py-2 shadow-sm flex items-center space-x-3">
       <div class="flex-shrink-0">
         <img class="h-15 w-15 rounded-full" :src="person.imageUrl" alt="">
       </div>
