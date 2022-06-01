@@ -4,11 +4,12 @@
   "private": true,
   "packageManager": "pnpm@7.1.7",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build && vite-ssg build",
+    "dev": "vite && cross-env NODE_ENV=development",
+    "build": "vite build && cross-env NODE_ENV=production vite-ssg build && esno ./scripts/rss.ts && cp _dist_redirects dist/_redirects",
     "preview": "vite preview",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "redirects": "esno scripts/redirects.ts"
   },
   "dependencies": {
     "@vueuse/core": "^8.2.5",

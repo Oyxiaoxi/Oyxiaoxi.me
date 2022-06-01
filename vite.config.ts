@@ -18,7 +18,7 @@ import SVG from 'vite-svg-loader'
 import { presetAttributify, presetIcons, presetUno } from 'unocss'
 // @ts-expect-error missing types
 import TOC from 'markdown-it-table-of-contents'
-import slugify from './scripts/slugify'
+import { slugify } from './scripts/slugify'
 
 import 'prismjs/components/prism-regex'
 import 'prismjs/components/prism-javascript'

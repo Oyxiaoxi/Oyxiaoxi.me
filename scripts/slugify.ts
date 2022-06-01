@@ -4,7 +4,7 @@ import { remove } from 'diacritics'
 const rControl = /[\u0000-\u001F]/g
 const rSpecial = /[\s~`!@#$%^&*()\-_+=[\]{}|\\;:"'<>,.?/]+/g
 
-const slugify = (str: string): string => {
+export const slugify = (str: string): string => {
   return (
     remove(str)
       // Remove control characters
@@ -21,5 +21,3 @@ const slugify = (str: string): string => {
       .toLowerCase()
   )
 }
-
-export default slugify

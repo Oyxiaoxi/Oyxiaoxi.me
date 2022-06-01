@@ -40,3 +40,5 @@ export const createApp = ViteSSG(
     }
   },
 )
+
+console.log(process.env.NODE_NEV)
