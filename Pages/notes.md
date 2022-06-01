@@ -12,3 +12,4 @@ display: ''
 </ClientOnly>
 
 <ListPosts type="notes"/>
+
