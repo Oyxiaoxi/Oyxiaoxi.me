@@ -29,7 +29,7 @@ const scrollBehavior = (to: any, from: any, savedPosition: any) => {
     return { top: 0 }
 }
 
-const createApp = ViteSSG(
+export const createApp = ViteSSG(
   App,
   { routes, scrollBehavior },
   ({ router, isClient }) => {
@@ -40,5 +40,3 @@ const createApp = ViteSSG(
     }
   },
 )
-
-export default createApp

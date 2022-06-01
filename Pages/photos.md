@@ -13,5 +13,3 @@ photos:
 <ClientOnly>
   <Firefly/>
 </ClientOnly>
-
-<ListPhotos :photos="frontmatter.photos"/>
