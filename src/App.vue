@@ -12,7 +12,7 @@ useHead({
 
 <template>
   <NavBar />
-  <main class="container px-10 py-10">
+  <main v-auto-animate class="container px-10 py-10">
     <router-view />
     <Footer />
   </main>

@@ -3,7 +3,7 @@ defineProps<{ projects: Record<string, any[]> }>()
 </script>
 
 <template>
-  <template v-for="key in Object.keys(projects)" :key="key">
+  <template v-for="key in Object.keys(projects)" :key="key" >
     <h4 class="mt-10 font-bold">
       {{ key }}
     </h4>

@@ -5,6 +5,7 @@ overrides:
 
 specifiers:
   '@antfu/eslint-config': ^0.20.2
+  '@formkit/auto-animate': 1.0.0-beta.1
   '@iconify/json': ^2.1.26
   '@octokit/rest': ^18.12.0
   '@types/degit': ^2.8.3
@@ -57,6 +58,7 @@ specifiers:
   vue-router: 4.0.14
 
 dependencies:
+  '@formkit/auto-animate': 1.0.0-beta.1_vue@3.2.36
   '@vueuse/core': 8.6.0_vue@3.2.36
   '@vueuse/head': 0.7.0_vue@3.2.36
   dayjs: 1.11.2
@@ -1388,6 +1390,20 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@formkit/auto-animate/1.0.0-beta.1_vue@3.2.36:
+    resolution: {integrity: sha512-I3OWOBaPZKSJL4bsooXI8kC3q7bcgibD2oML0P/Lir6MnbvUe/0/7EH8br024juvM/Ulm9C9xGx9CJUQYrOWSA==}
+    peerDependencies:
+      react: ^16.8.0
+      vue: ^3.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      vue:
+        optional: true
+    dependencies:
+      vue: 3.2.36
+    dev: false
 
   /@humanwhocodes/config-array/0.9.5:
     resolution: {integrity: sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npm.taobao.org/@humanwhocodes/config-array/-/config-array-0.9.5.tgz}

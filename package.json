@@ -1,6 +1,6 @@
 {
   "name": "oyxiaoxi.me",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "packageManager": "pnpm@7.1.7",
   "scripts": {
@@ -12,6 +12,7 @@
     "redirects": "esno scripts/redirects.ts"
   },
   "dependencies": {
+    "@formkit/auto-animate": "1.0.0-beta.1",
     "@vueuse/core": "^8.2.5",
     "@vueuse/head": "^0.7.5",
     "dayjs": "^1.11.0",
