@@ -10,7 +10,6 @@ import { ViteSSG } from 'vite-ssg'
 import NProgress from 'nprogress'
 import dayjs from 'dayjs'
 import LocalizedFormat from 'dayjs/plugin/localizedFormat.js'
-import { autoAnimatePlugin } from '@formkit/auto-animate/vue'
 
 import App from './App.vue'
 
@@ -33,8 +32,7 @@ const scrollBehavior = (to: any, from: any, savedPosition: any) => {
 export const createApp = ViteSSG(
   App,
   { routes, scrollBehavior },
-  ({ app, router, isClient }) => {
-    app.use(autoAnimatePlugin)
+  ({ router, isClient }) => {
     dayjs.extend(LocalizedFormat)
     if (isClient) {
       router.beforeEach(() => { NProgress.start() })
