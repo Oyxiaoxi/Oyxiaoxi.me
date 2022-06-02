@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { isDark } from '~/logics'
+const inactiveStyle = 'opacity-50 hover:opacity-50'
+const route = useRoute()
 </script>
 <template>
   <div class="nav flex items-center">
@@ -14,25 +16,25 @@ import { isDark } from '~/logics'
       </router-link>
 
       <div class="nav__list sm:20">
-        <router-link to="/posts" title="Posts" class="w-8 text-center">
+        <router-link to="/posts" title="Posts" class="w-8 text-center" :class="route.path === '/posts' ? '' : inactiveStyle">
           <div i-fa-solid:blog />
         </router-link>
-        <router-link to="/projects" title="Projects" class="w-8 text-center">
+        <router-link to="/projects" title="Projects" class="w-8 text-center" :class="route.path === '/projects' ? '' : inactiveStyle">
           <div i-logos:producthunt />
         </router-link>
-        <router-link to="/notes" title="Notes" class="w-8 text-center">
+        <router-link to="/notes" title="Notes" class="w-8 text-center" :class="route.path === '/notes' ? '' : inactiveStyle">
           <div i-emojione-v1:note-pad />
         </router-link>
-        <router-link to="/bookmarks" title="Bookmarks" class="w-8 text-center">
+        <router-link to="/bookmarks" title="Bookmarks" class="w-8 text-center" :class="route.path === '/bookmarks' ? '' : inactiveStyle">
           <div i-noto-v1:bookmark-tabs />
         </router-link>
-        <router-link to="/photos" title="Photo" class="w-8 text-center">
+        <router-link to="/photos" title="Photo" class="w-8 text-center" :class="route.path === '/photos' ? '' : inactiveStyle">
           <div i-logos:google-photos />
         </router-link>
-        <router-link to="/reviews" title="Reviews" class="w-8 text-center lt-md:hidden">
+        <router-link to="/reviews" title="Reviews" class="w-8 text-center lt-md:hidden" :class="route.path === '/reviews' ? '' : inactiveStyle">
           <div i-icon-park-solid:safe-retrieval />
         </router-link>
-        <router-link to="/travel" title="Travel" class="w-8 text-center lt-md:hidden">
+        <router-link to="/travel" title="Travel" class="w-8 text-center lt-md:hidden" :class="route.path === '/travel' ? '' : inactiveStyle">
           <div i-twemoji:small-airplane />
         </router-link>
         <a
@@ -40,6 +42,7 @@ import { isDark } from '~/logics'
           target="_blank"
           title="Twitter"
           class="lt-md:hidden w-8 text-center"
+          :class="twitter ? '' : inactiveStyle"
         >
           <div i-logos:twitter />
         </a>
@@ -48,6 +51,7 @@ import { isDark } from '~/logics'
           target="_blank"
           title="GitHub"
           class="lt-md:hidden w-8 text-center"
+          :class="github ? '' : inactiveStyle"
         >
           <div i-el:github />
         </a>
