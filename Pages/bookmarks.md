@@ -20,10 +20,16 @@ subtitle: Some of My favorite websites/tools with excellent design and UX that I
 - [NIPPON COLORS - 日本の伝統色](https://nipponcolors.com/)
 - [terminal.sexy](https://terminal.sexy/)
 
+### FM
+
+- [AnyWay](https://anyway.fm/) - 设计杂谈
+- [Talk Swift](https://talk.swift.gg/) - 程序员闲聊节目
+
 #### UI/UX
 
 - [Tailwind Gradient Designer](https://tailwind-gradient-designer.csspost.com/)
 - [Open UI](https://open-ui.org/) - Comparison between different component frameworks
+- [Infoier](http://www.infoier.com/)
 
 ### Content
 
