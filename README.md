@@ -5,3 +5,8 @@ my personal website powered by [Vite](https://vitejs.dev/)
 <br>
 
 <samp>code is licensed under <a href='./LICENSE'>MIT</a>,<br> words and images are licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY-NC-SA 4.0</a></samp>.
+
+## TODO
+
+- Page Loading Animation - [Auto-Animation](https://auto-animate.formkit.com/)
+> When I build My application using vite-ssg: ErrorCaptureStackTrace(err)

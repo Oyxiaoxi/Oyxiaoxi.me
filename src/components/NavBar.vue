@@ -6,11 +6,7 @@ const route = useRoute()
 <template>
   <div class="nav flex items-center">
     <nav class="nav__content">
-      <router-link
-        class="nav__logo w-8 h-8 lg:fixed select-none outline-none"
-        to="/"
-        focusable="false"
-      >
+      <router-link class="nav__logo w-8 h-8 lg:fixed select-none outline-none" to="/" focusable="false">
         <img v-show="isDark" src="/logo-dark.svg?url" alt="logo">
         <img v-show="!isDark" src="/logo.svg?url" alt="logo">
       </router-link>
@@ -32,27 +28,18 @@ const route = useRoute()
           <div i-logos:google-photos />
         </router-link>
         <router-link to="/reviews" title="Reviews" class="w-8 text-center lt-md:hidden" :class="route.path === '/reviews' ? '' : inactiveStyle">
-          <div i-icon-park-solid:safe-retrieval />
+          <div i-icon-park-outline:safe-retrieval />
         </router-link>
         <router-link to="/travel" title="Travel" class="w-8 text-center lt-md:hidden" :class="route.path === '/travel' ? '' : inactiveStyle">
           <div i-twemoji:small-airplane />
         </router-link>
-        <a
-          href="https://twitter.com/Oyxiaoxi"
-          target="_blank"
-          title="Twitter"
-          class="lt-md:hidden w-8 text-center"
-          :class="twitter ? '' : inactiveStyle"
-        >
+        <a href="https://oyxiaoxi.me/feed.xml" target="_blank" title="RSS" class="w-8 text-center lt-md:hidden" :class="Rss ? '' : inactiveStyle">
+          <div i-bi:rss />
+        </a>
+        <a href="https://twitter.com/Oyxiaoxi" target="_blank" title="Twitter" class="w-8 text-center lt-md:hidden" :class="twitter ? '' : inactiveStyle">
           <div i-logos:twitter />
         </a>
-        <a
-          href="https://github.com/Oyxiaoxi"
-          target="_blank"
-          title="GitHub"
-          class="lt-md:hidden w-8 text-center"
-          :class="github ? '' : inactiveStyle"
-        >
+        <a href="https://github.com/Oyxiaoxi" target="_blank" title="GitHub" class="w-8 text-center lt-md:hidden" :class="github ? '' : inactiveStyle">
           <div i-el:github />
         </a>
       </div>
