@@ -36,8 +36,12 @@ subtitle: Some of My favorite websites/tools with excellent design and UX that I
 - [Perflink](https://perf.link/) - JS Benchmarks
 - [Regex 101](https://regex101.com/)
 - [RegExper](https://regexper.com/) - Regex Visualizer
+- [Regex Learn](https://regexlearn.com/zh-cn)
 - [Bundle Phobia](https://bundlephobia.com/) - Check your npm package size
 - [transform](https://transform.tools/) - Collection of code transformers
+- [Vue3 入门指南与实战案例](https://vue3.chengpeiquan.com/)
+- [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)
+- [TypeScript 入门教程](http://ts.xcatliu.com/)
 
 #### CSS
 
