@@ -29,6 +29,16 @@ projects:
       link: 'https://github.com/Oyxiaoxi/DeDeCMS'
       desc: 'Opinionated DeDeCms Starter Template'
       icon: 'i-simple-icons:civicrm'
+  
+  Utilities:
+    - name: 'KeyWords Replace'
+      link: 'https://github.com/Oyxiaoxi/KeyWords-Replace'
+      desc: 'Website keyword replacement tool'
+      icon: 'i-logos:php'
+    - name: 'Find Broken Picture'
+      link: 'https://github.com/Oyxiaoxi/Find-broken-picture'
+      desc: 'Find damaged images on the website'
+      icon: 'i-logos:php'
 
   Games:
     - name: 'Minesweeper'
@@ -41,6 +51,10 @@ projects:
       link: 'https://github.com/Oyxiaoxi/TypeScript-Tips'
       desc: 'A collection of TypeScript tips'
       icon: 'i-vscode-icons:file-type-typescript-official' 
+    - name: 'Code Example'
+      link: 'https://github.com/Oyxiaoxi/Code-Tips'
+      desc: 'Some examples of the mess'
+      icon: 'i-logos:html-5' 
 
   Configurations:
     - name: 'MAC-Configuration'
@@ -50,8 +64,22 @@ projects:
     - name: 'Script'
       link: 'https://github.com/Oyxiaoxi/script'
       desc: 'Unusual Linux commands and scripts'
-      icon: 'i-logos:bash'
+      icon: 'i-vscode-icons:file-type-shell'
 
+  Documentation / Practice:
+    - name: 'Flutter'
+      link: 'https://github.com/Oyxiaoxi/Flutter'
+      desc: 'A new Flutter project. (Practice)'
+      icon: 'i-vscode-icons:file-type-flutter'
+    - name: 'MySQL'
+      link: 'https://github.com/Oyxiaoxi/MySQL'
+      desc: 'MySQL Learning Notes. (Practice)'
+      icon: 'i-vscode-icons:folder-type-light-mysql-opened'
+
+    - name: 'Adwords'
+      link: 'https://github.com/Oyxiaoxi/ToMu'
+      desc: 'Some of the advertisements collected'
+      icon: 'i-ri:advertisement-fill'
 ---
 
 <ClientOnly>
