@@ -48,6 +48,7 @@ subtitle: Some of My favorite websites/tools with excellent design and UX that I
 - [Vue3 入门指南与实战案例](https://vue3.chengpeiquan.com/)
 - [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)
 - [TypeScript 入门教程](http://ts.xcatliu.com/)
+- [SQLBolt](https://sqlbolt.com) - Learn SQL with simple, interactive exercises.
 
 #### CSS
 
