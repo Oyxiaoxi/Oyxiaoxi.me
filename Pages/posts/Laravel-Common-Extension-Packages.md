@@ -12,7 +12,7 @@ description: HLarvel Common Extension Packages。
   <Firefly/>
 </ClientOnly>
 
-![Laravel Package](http://cdn.3333120.com/article/laravel-package/400x400.png)
+![Laravel Package](//cdn.3333120.com/article/laravel-package/400x400.png)
 
 | Name            | Note                                   | URL                                       |
 | --------------- | -------------------------------------- | ----------------------------------------- |

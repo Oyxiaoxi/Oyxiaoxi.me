@@ -11,7 +11,7 @@ description: JSON related small requirements solution process and ideas。
   <Firefly/>
 </ClientOnly>
 
-![JSON ideas](http://cdn.3333120.com/article/json-ideas/wLPWKEkZR8.jpg)
+![JSON ideas](//cdn.3333120.com/article/json-ideas/wLPWKEkZR8.jpg)
 
 ## 起因
 

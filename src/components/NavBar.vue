@@ -7,8 +7,8 @@ const route = useRoute()
   <div class="nav flex items-center">
     <nav class="nav__content">
       <router-link class="nav__logo w-8 h-8 lg:fixed select-none outline-none" to="/" focusable="false">
-        <img v-show="isDark" src="http://cdn.3333120.com/static/logo-dark.svg?url" alt="logo">
-        <img v-show="!isDark" src="http://cdn.3333120.com/static/logo.svg?url" alt="logo">
+        <img v-show="isDark" src="//cdn.3333120.com/static/logo-dark.svg?url" alt="logo">
+        <img v-show="!isDark" src="//cdn.3333120.com/static/logo.svg?url" alt="logo">
       </router-link>
 
       <div class="nav__list sm:20">

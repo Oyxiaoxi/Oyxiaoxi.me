@@ -12,7 +12,7 @@ description: SomeTime。
   <Firefly/>
 </ClientOnly>
 
-![Sometime](http://cdn.3333120.com/article/sometime/C591155F-29E5-49EC-A677-E1462A6E103D.jpeg)
+![Sometime](//cdn.3333120.com/article/sometime/C591155F-29E5-49EC-A677-E1462A6E103D.jpeg)
 
 Sometimes, It’s not the person miss, It’s the feeling you had when you were with them.
 

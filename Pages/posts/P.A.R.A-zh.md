@@ -31,7 +31,7 @@ description: 根据信息的可操作性程度，对信息进行聚焦或转移�
 
 # **P.A.R.A 的起源**
 
-![P.A.R.A 起源](http://cdn.3333120.com/article/para/para-1.jpg)
+![P.A.R.A 起源](//cdn.3333120.com/article/para/para-1.jpg)
 
 P.A.R.A 的作者是 [Tiago Forte](https://fortelabs.co/about-forte-labs)，是世界上最著名的生产力专家之一。他通过自己的项目在全世界教育了 2 万多人，并撰写和演讲技术如何帮助知识工作者彻底改变他们的个人效率。Tiago 的在线课程《[打造第二大脑（Building a Second Brain）](https://www.buildingasecondbrain.com/)》已经有来自 70 多个国家的 1000 多名学生参加了该课程。
 
@@ -49,7 +49,7 @@ P.A.R.A 的作者是 [Tiago Forte](https://fortelabs.co/about-forte-labs)，是
 
 # **P.A.R.A 的含义与定义**
 
-![P.A.R.A 定义](http://cdn.3333120.com/article/para/para-2.png)
+![P.A.R.A 定义](//cdn.3333120.com/article/para/para-2.png)
 
 P.A.R.A. 是一种组织信息的思路，但并不是某种具体的规范和教条，其核心是「**根据信息的可操作性程度，对信息进行聚焦或转移**」。
 
@@ -67,7 +67,7 @@ P.A.R.A. 是 **项目（Project）**、**领域（Area）**、**资源（Resour
 
 **围绕 Area 的精进，我们需要不断吸收外部的有效信息和进行阶段性的「创作」**，而阶段性的创作需要的主题，可以是 Area 的拆分，也可以是基于 Project 的抽象和总结，但来源主要是通过实践（Project）和理论来进行的（即 Resource——外部参考、经验、方法论）。
 
-![P.A.R.A](http://cdn.3333120.com/article/para/para-3.jpg)
+![P.A.R.A](//cdn.3333120.com/article/para/para-3.jpg)
 
 # **聚焦项目与领域的关系**
 
@@ -75,7 +75,7 @@ P.A.R.A. 是 **项目（Project）**、**领域（Area）**、**资源（Resour
 
 只是对于大多数人来说，他们其实并没有一个关于自己生活和工作的完整的项目清单。但是他们却会告诉你，有太多的事情要做。当这样忙忙碌碌多年以后，其实发现自己可能做了许多事，但是却「样样稀松」。**这就是只有项目，而缺乏领域聚焦带来的问题**。
 
-![P.A.R.A 聚焦项目](http://cdn.3333120.com/article/para/para-4.png)
+![P.A.R.A 聚焦项目](//cdn.3333120.com/article/para/para-4.png)
 
 创建一个清晰的项目清单，能让**你知道你的能力边界。而一旦界定了边界，你就可以有意识地、战略性地决定做或者不做，如何弥补还是尽快放弃。** 只是大多数人搞不清楚项目和领域的区别，看看图片中的例子，这个列表中没有一项是项目。假期有结束的时候吗？有没有这样一个时刻，你可以一劳永逸地把「效率」从你的清单上划掉？不——这些是正在进行的领域，而不是项目。
 
@@ -101,7 +101,7 @@ P.A.R.A. 是 **项目（Project）**、**领域（Area）**、**资源（Resour
 
 # **1. 先定义项目清单**
 
-![先定义项目清单](http://cdn.3333120.com/article/para/para-5.png)
+![先定义项目清单](//cdn.3333120.com/article/para/para-5.png)
 
 **定义你的项目，否则他们会定义你**。你会不断地被拉着、被推到别人的项目中去，你会发现，即使别人提出来帮你做你的项目，你也不知道该让他们从哪里下手。
 
@@ -133,7 +133,7 @@ P.A.R.A. 是 **项目（Project）**、**领域（Area）**、**资源（Resour
 
 # **4. 日常维护**
 
-![日常维护](http://cdn.3333120.com/article/para/para-6.jpg)
+![日常维护](//cdn.3333120.com/article/para/para-6.jpg)
 
 ### **4.1 大胆地让信息在各模块之间的流转**
 

@@ -12,7 +12,7 @@ description: 互惠宽容地与人相处之美。
   <Firefly/>
 </ClientOnly>
 
-![Game Theory](http://cdn.3333120.com/article/game-thory/truce.jpeg)
+![Game Theory](//cdn.3333120.com/article/game-thory/truce.jpeg)
 
 博弈论向我们揭示了要发展信任人们所需要掌握的三件事：
 
