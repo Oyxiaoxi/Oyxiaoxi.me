@@ -2,7 +2,7 @@
 useHead({
   meta: [
     { property: 'og:title', content: 'Oyxiaoxi' },
-    { property: 'og:image', content: 'https://oyxiaoxi.me/avatar.jpeg' },
+    { property: 'og:image', content: 'http://cdn.3333120.com/static/avatar.jpeg' },
     { name: 'description', content: 'Oyxiaoxi\'s Portfolio' },
     { name: 'twitter:card', content: 'summary' },
     { name: 'twitter:creator', content: '@Oyxiaoxi' },

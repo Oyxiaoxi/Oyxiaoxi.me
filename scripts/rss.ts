@@ -114,8 +114,8 @@ async function buildNotesRSS() {
 
 async function writeFeed(name: string, options: FeedOptions, items: Item[]) {
   options.author = AUTHOR
-  options.image = 'https://oyxiaoxi.me/avatar.jpeg'
-  options.favicon = 'https://oyxiaoxi.me/logo.png'
+  options.image = 'http://cdn.3333120.com/static/avatar.jpeg'
+  options.favicon = 'http://cdn.3333120.com/static/logo.png'
 
   const feed = new Feed(options)
 

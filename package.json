@@ -1,6 +1,6 @@
 {
   "name": "oyxiaoxi.me",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@7.1.7",
   "scripts": {

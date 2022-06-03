@@ -7,8 +7,8 @@ const route = useRoute()
   <div class="nav flex items-center">
     <nav class="nav__content">
       <router-link class="nav__logo w-8 h-8 lg:fixed select-none outline-none" to="/" focusable="false">
-        <img v-show="isDark" src="/logo-dark.svg?url" alt="logo">
-        <img v-show="!isDark" src="/logo.svg?url" alt="logo">
+        <img v-show="isDark" src="http://cdn.3333120.com/static/logo-dark.svg?url" alt="logo">
+        <img v-show="!isDark" src="http://cdn.3333120.com/static/logo.svg?url" alt="logo">
       </router-link>
 
       <div class="nav__list sm:20">
@@ -36,12 +36,12 @@ const route = useRoute()
         <a href="https://oyxiaoxi.me/feed.xml" target="_blank" title="RSS" class="w-8 text-center lt-md:hidden" :class="Rss ? '' : inactiveStyle">
           <div i-bi:rss />
         </a>
-        <a href="https://twitter.com/Oyxiaoxi" target="_blank" title="Twitter" class="w-8 text-center lt-md:hidden" :class="twitter ? '' : inactiveStyle">
+        <!-- <a href="https://twitter.com/Oyxiaoxi" target="_blank" title="Twitter" class="w-8 text-center lt-md:hidden" :class="twitter ? '' : inactiveStyle">
           <div i-logos:twitter />
         </a>
         <a href="https://github.com/Oyxiaoxi" target="_blank" title="GitHub" class="w-8 text-center lt-md:hidden" :class="github ? '' : inactiveStyle">
           <div i-el:github />
-        </a>
+        </a> -->
       </div>
       <toggle-theme />
     </nav>
