@@ -13,11 +13,6 @@ description: Zshrc Alias。
 </ClientOnly>
 
 ```bash
-# --------------------------------------------------------- #
-# Proxy Aliases
-# --------------------------------------------------------- #
-alias proxy='export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;'
-alias unproxy='unset all_proxy http_proxy https_proxy HTTP_PROXY HTTPS_PROXY'
 
 # --------------------------------------------------------- #
 # Git Aliases
