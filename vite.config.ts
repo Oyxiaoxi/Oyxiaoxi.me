@@ -44,7 +44,7 @@ export default defineConfig({
 
     Pages({
       extensions: ['vue', 'md'],
-      pagesDir: 'pages',
+      pagesDir: 'Pages',
       extendRoute(route) {
         const path = resolve(__dirname, route.component.slice(1))
 
