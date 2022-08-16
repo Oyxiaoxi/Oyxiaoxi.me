@@ -2,7 +2,7 @@
   <div v-for="(item, index) in 14" :key="index" class="firefly" />
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 .firefly {
   position: fixed;
   left: 50%;
