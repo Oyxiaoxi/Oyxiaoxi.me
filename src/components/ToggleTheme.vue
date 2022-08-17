@@ -6,7 +6,7 @@ function toggleDark() {
 </script>
 
 <template>
-  <div class="w-8 text-center py-9 lt-md:hidden">
+  <div class="w-10 text-center py-9 lt-md:hidden">
     <a class="select-none" title="Toggle Color Scheme" @click="toggleDark">
       <div v-show="isDark" i-emojione-v1:waxing-gibbous-moon />
       <div v-show="!isDark" i-fxemoji:sunwithface />

@@ -1,5 +1,20 @@
+:root {
+  --c-bg: #fff;
+  --c-scrollbar: #eee;
+  --c-scrollbar-hover: #bbb;
+}
+
 html {
   background-color: var(--c-bg);
+}
+
+html.dark {
+  --c-bg: #1C1C1C;
+  --c-scrollbar: #111;
+  --c-scrollbar-hover: #222;
+}
+
+html {
   overflow: scroll;
 }
 
