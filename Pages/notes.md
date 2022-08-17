@@ -4,6 +4,8 @@ display: ''
 firefly: true
 ---
 
+[[toc]]
+
 [RSS Feed](https://oyxiaoxi.me/notes/feed.xml)
 
 <SubNav/>

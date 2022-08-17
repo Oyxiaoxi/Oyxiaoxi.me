@@ -8,6 +8,8 @@ duration: Read · 1min
 description: Northern Europe Travel itineraries。
 ---
 
+[[toc]]
+
 > 冷，性冷淡风，北极熊，极光
 
 - 瑞典 → 挪威 → 丹麦 → 芬兰

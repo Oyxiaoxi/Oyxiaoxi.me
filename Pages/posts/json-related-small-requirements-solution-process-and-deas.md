@@ -7,6 +7,8 @@ duration: Read · 18min
 description: JSON related small requirements solution process and ideas。
 ---
 
+[[toc]]
+
 ![JSON ideas](//cdn.3333120.com/article/json-ideas/wLPWKEkZR8.jpg)
 
 ## 起因

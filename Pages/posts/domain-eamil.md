@@ -7,6 +7,8 @@ duration: Read · 2min
 description: Domain Name Custom Mailboxes。
 ---
 
+[[toc]]
+
 ## The cause
 
 > How to have a short and nice email address?

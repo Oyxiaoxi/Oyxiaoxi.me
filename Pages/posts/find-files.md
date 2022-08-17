@@ -8,6 +8,8 @@ duration: Read · 1min
 description: Flush MAC Dns cache。
 ---
 
+[[toc]]
+
 ```bash
 sudo dscacheutil -flushcache
 # 配合 nslookup

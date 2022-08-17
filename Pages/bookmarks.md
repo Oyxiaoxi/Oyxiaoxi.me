@@ -5,6 +5,8 @@ subtitle: Some of My favorite websites/tools with excellent design and UX that I
 firefly: true
 ---
 
+[[toc]]
+
 ### Design
 
 - [Font Playground](https://play.typedetail.com/)

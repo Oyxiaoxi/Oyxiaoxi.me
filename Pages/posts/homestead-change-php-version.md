@@ -8,6 +8,8 @@ duration: Read · 1min
 description: Homestead Change PhP Version。
 ---
 
+[[toc]]
+
 Laravel 环境
 
 ```bash

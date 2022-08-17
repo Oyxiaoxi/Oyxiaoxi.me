@@ -8,6 +8,8 @@ duration: Read · 3min
 description: Zshrc Alias。
 ---
 
+[[toc]]
+
 ```bash
 
 # --------------------------------------------------------- #

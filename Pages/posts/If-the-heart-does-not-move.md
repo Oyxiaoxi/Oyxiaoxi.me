@@ -8,6 +8,7 @@ duration: Read · 3min
 description: 心若不动，风又奈何？你若不伤，岁月无恙。。
 ---
 
+[[toc]]
 
 久违了。陌生之人，你还记得吗？
 

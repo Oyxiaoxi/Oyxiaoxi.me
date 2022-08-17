@@ -7,6 +7,8 @@ duration: Read · 2min
 description: 利用中间件处理 GoLang Gin CORS 跨域。
 ---
 
+[[toc]]
+
 ### CORS
 
 全称 Cross-Origin Resource Sharing，是一种允许当前域 domain 的资源 web service 被其他域domain 的脚本请求访问的机制，通常由于同域安全策略 the same-origin security policy 浏览器会禁止这种跨域请求。

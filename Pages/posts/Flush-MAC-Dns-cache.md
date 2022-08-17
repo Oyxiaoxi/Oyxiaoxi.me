@@ -8,6 +8,8 @@ duration: Read · 1min
 description: Forced Cross Domain。
 ---
 
+[[toc]]
+
 ```bash
 查找当前目录下以tar.gz结尾的文件：find . -name '*tar.gz'
 

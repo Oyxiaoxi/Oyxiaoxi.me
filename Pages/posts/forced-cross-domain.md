@@ -8,6 +8,8 @@ duration: Read · 1min
 description: Forced Cross Domain。
 ---
 
+[[toc]]
+
 Chrome 93版本以前跨域
 
 ```bash

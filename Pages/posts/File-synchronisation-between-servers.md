@@ -8,6 +8,8 @@ duration: Read · 1min
 description: File synchronisation between servers。
 ---
 
+[[toc]]
+
 ```bash
 # 查看服务器系统版本
 cat /proc/version 

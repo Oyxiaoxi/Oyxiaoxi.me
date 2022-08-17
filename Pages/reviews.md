@@ -39,4 +39,6 @@ comments:
     imageUrl: '//cdn.3333120.com/friends/Li.png'
 ---
 
+[[toc]]
+
 <ListReviews :comments="frontmatter.comments"/>

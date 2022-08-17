@@ -7,6 +7,8 @@ duration: Read · 8min
 description: Flow-limited middleware。
 ---
 
+[[toc]]
+
 ## 说明
 
 对于 API 来讲，限流非常重要。

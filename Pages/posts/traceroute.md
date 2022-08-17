@@ -8,6 +8,8 @@ duration: Read · 1min
 description: Traceroute。
 ---
 
+[[toc]]
+
 ```bash
 # MAC
 traceroute weibo.com

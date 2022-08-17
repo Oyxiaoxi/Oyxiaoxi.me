@@ -82,5 +82,6 @@ projects:
       desc: 'Some of the advertisements collected'
       icon: 'i-ri:advertisement-fill'
 ---
+[[toc]]
 
 <ListProjects :projects="frontmatter.projects"/>

@@ -8,6 +8,8 @@ duration: Read · 8min
 description: HLarvel Common Extension Packages。
 ---
 
+[[toc]]
+
 ![Laravel Package](//cdn.3333120.com/article/laravel-package/400x400.png)
 
 | Name            | Note                                   | URL                                       |
