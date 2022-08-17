@@ -1,12 +1,9 @@
 ---
 title: Prose - Oyxiaoxi
 display: ''
+firefly: true
 ---
 
 <SubNav/>
-
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
 
 <ListPosts type="prose"/>

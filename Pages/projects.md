@@ -3,6 +3,7 @@ title: Projects - Oyxiaoxi
 display: Projects
 subtitle: List of projects that I am proud of
 description: List of projects that I am proud of
+firefly: true
 projects:
   Vue Ecosystem:
     - name: 'Vue Composables'
@@ -81,9 +82,5 @@ projects:
       desc: 'Some of the advertisements collected'
       icon: 'i-ri:advertisement-fill'
 ---
-
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
 
 <ListProjects :projects="frontmatter.projects"/>

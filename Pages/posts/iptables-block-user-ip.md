@@ -8,10 +8,6 @@ duration: Read · 1min
 description: Forced Cross Domain。
 ---
 
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
-
 ```bash
 # 封单个 IP
 iptables -I INPUT -s 124.115.0.199 -j DROP

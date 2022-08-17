@@ -8,10 +8,6 @@ duration: Read · 1min
 description: Flush MAC Dns cache。
 ---
 
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
-
 ```bash
 sudo dscacheutil -flushcache
 # 配合 nslookup

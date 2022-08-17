@@ -3,6 +3,7 @@ title: Reviews - Oyxiaoxi
 display: Reviews
 subtitle: Some comments from friends
 description: Some comments from friends
+firefly: true
 comments:
   - name: 'Calvin'
     desc: '晓锡做事有geek精神，善于钻研，性格稍显固执，专一，尽量融入集体，有时爱钻牛角尖。'
@@ -37,9 +38,5 @@ comments:
           善良的小朋友，希望你能勇敢追求自己想要的，不要瞻前顾后，考虑太多往往会失去很多机会，过去的事情不要想太多，往前看，加油!'
     imageUrl: '//cdn.3333120.com/friends/Li.png'
 ---
-
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
 
 <ListReviews :comments="frontmatter.comments"/>

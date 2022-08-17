@@ -8,10 +8,6 @@ duration: Read · 1min
 description: Traceroute。
 ---
 
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
-
 ```bash
 # MAC
 traceroute weibo.com

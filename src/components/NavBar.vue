@@ -7,12 +7,12 @@ const route = useRoute()
 <template>
   <div class="nav flex items-center">
     <nav class="nav__content">
-      <router-link class="nav__logo w-10 h-10 lg:fixed select-none outline-none" to="/" focusable="false">
+      <router-link class="nav__logo w-8 h-8 lg:fixed select-none outline-none" to="/" focusable="false">
         <img v-show="isDark" src="//cdn.3333120.com/static/logo-dark.svg" alt="logo">
         <img v-show="!isDark" src="//cdn.3333120.com/static/logo.svg" alt="logo">
       </router-link>
 
-      <div class="nav__list sm:20 w-10 text-center">
+      <div class="nav__list sm:20 w-8 text-center">
         <router-link to="/posts" title="Posts" :class="route.path === '/posts' ? '' : inactiveStyle">
           <div i-fa-solid:blog style="color:#2ea336" />
         </router-link>

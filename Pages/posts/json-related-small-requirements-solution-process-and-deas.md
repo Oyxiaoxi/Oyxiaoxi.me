@@ -7,10 +7,6 @@ duration: Read · 18min
 description: JSON related small requirements solution process and ideas。
 ---
 
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
-
 ![JSON ideas](//cdn.3333120.com/article/json-ideas/wLPWKEkZR8.jpg)
 
 ## 起因
@@ -222,7 +218,7 @@ public function handle($request)
 创建一个事件监听器：
 
 ```bash
-$ ./artisan make:listener SetResponseEncodingOptions --event=Illuminate\Foundation\Http\Events\RequestHandled
+./artisan make:listener SetResponseEncodingOptions --event=Illuminate\Foundation\Http\Events\RequestHandled
 ```
 
 代码如下：

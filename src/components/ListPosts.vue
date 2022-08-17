@@ -2,10 +2,12 @@
 import { useRouter } from 'vue-router'
 import { englishOnly, formatDate } from '~/logics'
 import type { Post } from '~/types'
+
 const props = defineProps<{
   type?: string
   posts?: Post[]
 }>()
+
 const router = useRouter()
 const routes: Post[] = router.getRoutes()
   .filter(i => i.path.startsWith('/posts') && i.meta.frontmatter.date)
@@ -19,7 +21,9 @@ const routes: Post[] = router.getRoutes()
     duration: i.meta.frontmatter.duration,
     recording: i.meta.frontmatter.recording,
   }))
+
 const posts = computed(() => (props.posts || routes).filter(i => !englishOnly.value || i.lang !== 'zh'))
+
 const getYear = (a: Date | string | number) => new Date(a).getFullYear()
 const isSameYear = (a: Date | string | number, b: Date | string | number) => a && b && getYear(a) === getYear(b)
 </script>

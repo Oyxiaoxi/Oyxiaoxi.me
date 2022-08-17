@@ -8,9 +8,6 @@ duration: Read · 2min
 description: 互惠宽容地与人相处之美。
 ---
 
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
 
 ![Game Theory](//cdn.3333120.com/article/game-thory/truce.jpeg)
 

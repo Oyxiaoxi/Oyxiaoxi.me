@@ -1,10 +1,7 @@
 ---
 title: Oyxiaoxi
+firefly: true
 ---
-
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
 
 ***
 
@@ -16,5 +13,5 @@ He also loves travelling, reading and photography. He is always willing to try n
 
 ***
 
-Find me on [GitHub](https://github.com/oyxiaoxi), [Twitter](https://www.twitter.com/oyxiaoxi) or [WeiBo](https://weibo.com/AmOyxiaoxi)<br>
-Mail me at [hi@oyxiaoxi.me](mailto:hi@oyxiaoxi.me).<br>
+Find me on [GitHub](https://github.com/oyxiaoxi), [Twitter](https://www.twitter.com/oyxiaoxi) or [WeiBo](https://weibo.com/AmOyxiaoxi) <br>
+Mail me at [hi@oyxiaoxi.me](mailto:hi@oyxiaoxi.me).

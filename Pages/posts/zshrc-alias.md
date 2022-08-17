@@ -8,10 +8,6 @@ duration: Read · 3min
 description: Zshrc Alias。
 ---
 
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
-
 ```bash
 
 # --------------------------------------------------------- #

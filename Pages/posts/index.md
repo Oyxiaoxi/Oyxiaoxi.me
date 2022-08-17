@@ -1,12 +1,9 @@
 ---
 title: Blog - Oyxiaoxi
 display: ''
+firefly: true
 ---
 
 <SubNav/>
-
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
 
 <ListPosts />

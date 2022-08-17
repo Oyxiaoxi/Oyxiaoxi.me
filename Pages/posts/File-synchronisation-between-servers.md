@@ -8,10 +8,6 @@ duration: Read · 1min
 description: File synchronisation between servers。
 ---
 
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
-
 ```bash
 # 查看服务器系统版本
 cat /proc/version 

@@ -7,10 +7,6 @@ duration: Read · 7min
 description: Github Copilot。
 ---
 
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
-
 Your AI pair programmer With GitHub Copilot, get suggestions for whole lines or entire functions right inside your editor.
 
 Trained on billions of lines of public code, GitHub Copilot puts the knowledge you need at your fingertips, saving you time and helping you stay focused.
@@ -24,14 +20,14 @@ On the morning of March 30th, at 9:30am, I received an email from GitHub approvi
 After a few hours of using it, the most intuitive feeling I had was that I was going to lose my job: it was so smart that it would automatically AI-complete the logic by writing a comment and a method name
 
 [Leetcode 239 Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
- 
+
 ``` swift
 // Github Copilot
 class Solution {
     // Sliding Window Maximum
     func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
         // github copilot Generated code snippets
-      	var res = [Int]()
+       var res = [Int]()
         if nums.count == 0 {
             return res
         }
@@ -173,16 +169,16 @@ class Solution {
 From then on Cmd + C, Cmd + V is completely meaningless, Tab YYDS
 5. since the beginning of my career, I have always reminded myself to write code comments for my own convenience and the convenience of others (what is the difference between knocking out code without writing comments and being a hooligan), now I feel more intuitive
 6. writing unit tests will be very useful in the future!
-7. writing creative code is not helpful, building a wheel is like a godsend. 
+7. writing creative code is not helpful, building a wheel is like a godsend.
 8. will make people dependent, probably ...
 
 ### Are the benefits worth the risk?
 
-[GitHub’s AI Tool Speeds Up Development, but Comes with Risks](https://www.backhub.co/blog/copilot-github-ai-tool-security-risks) As mentioned in, it may inadvertently introduce security vulnerabilities that your security team is unable to predict or correct due to inexperience. 
+[GitHub’s AI Tool Speeds Up Development, but Comes with Risks](https://www.backhub.co/blog/copilot-github-ai-tool-security-risks) As mentioned in, it may inadvertently introduce security vulnerabilities that your security team is unable to predict or correct due to inexperience.
 
-Is it really a big deal if Copilot offers more value or a faster turnaround time for your coding projects? 
+Is it really a big deal if Copilot offers more value or a faster turnaround time for your coding projects?
 
-Yes. The best software in the world is worthless if it has a lot of security flaws. Security is paramount in this day and age. Antivirus has to be airtight. You need a backup service for your crucial data. Your code can’t be vulnerable to network attacks. 
+Yes. The best software in the world is worthless if it has a lot of security flaws. Security is paramount in this day and age. Antivirus has to be airtight. You need a backup service for your crucial data. Your code can’t be vulnerable to network attacks.
 
 Bottom line: Copilot might be an interesting tool, but its potential security flaws more than offset that value and should make you think twice before adopting it in your organization.
 
@@ -199,7 +195,7 @@ The core security issue with Copilot is this:
 
 ### Overview
 
-Finally, Copilot is another novel way of integrating machine learning and artificial intelligence techniques to reduce development time for programmers. 
+Finally, Copilot is another novel way of integrating machine learning and artificial intelligence techniques to reduce development time for programmers.
 
 However, Copilot also introduces a number of security risks that could threaten your data, albeit through no fault of its own. Conversely, the fact that it must take coding samples from the generation of flawed code may ultimately diminish its maximum potential.
 

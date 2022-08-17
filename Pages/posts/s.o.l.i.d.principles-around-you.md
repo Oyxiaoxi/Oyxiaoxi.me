@@ -7,16 +7,11 @@ duration: Read · 5min
 description: S.O.L.I.D. Principles Around You。
 ---
 
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
-
 ![SOLID](//cdn.3333120.com/article/solid/0qazxkim2uf50lnwjkhx.png)
 
 In this article, I want to briefly go through [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) principles (the acronym that stands for five basic principles of object-oriented programming and design) supplying each of them with real-world visual examples to make those principles more understandable, readable and memorizable.
 
 > If you want to see code examples instead you may take a look at variety of tree data structure implementations in JavaScript like Binary Search Tree, AVL Tree, Red-Black Tree, Segment Tree or Fenwick Tree.
-> 
 
 So let’s move on!
 

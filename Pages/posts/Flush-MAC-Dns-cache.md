@@ -8,10 +8,6 @@ duration: Read · 1min
 description: Forced Cross Domain。
 ---
 
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
-
 ```bash
 查找当前目录下以tar.gz结尾的文件：find . -name '*tar.gz'
 

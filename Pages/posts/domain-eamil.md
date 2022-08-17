@@ -7,20 +7,19 @@ duration: Read · 2min
 description: Domain Name Custom Mailboxes。
 ---
 
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
-
 ## The cause
+
 > How to have a short and nice email address?
 
 I got interested in having a short and nice email address. My current one in Hotmail is just too long to even being spell out in talk. [hey.com](https://www.hey.com/)   looks very nice but $99/year is not a very good deal to me. I decide to use my own domain for receiving emails.
 
 ## Search
+
 With this in mind, I started searching for E-mail Free On Github, And found [Forward Email - Free](https://github.com/forwardemail) in the search results.
 
 ## The solution
-The DNS forwarding feature just works the same, but it requires you to log in and register your domain now. 
+
+The DNS forwarding feature just works the same, but it requires you to log in and register your domain now.
 
 The config is quite simple as usual, just 3 DNS record:
 

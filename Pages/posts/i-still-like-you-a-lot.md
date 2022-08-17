@@ -8,10 +8,6 @@ duration: Read · 7min
 description: 我还是很喜欢你，或许未来也不会跟你提起，就让他成为秘密。
 ---
 
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
-
 ```text
 我还是很喜欢你，像风走了八千里，不问归期。
 我还是很喜欢你，像日月轮回交替，不理朝夕。

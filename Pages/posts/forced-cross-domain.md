@@ -8,16 +8,14 @@ duration: Read · 1min
 description: Forced Cross Domain。
 ---
 
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
-
 Chrome 93版本以前跨域
+
 ```bash
 open -a /Applications/Google| Chrome.app --args--disable-web-security--user-data-dir=/User/Oyxiaoxi/Documents/MyChromeDevUserData
 ```
 
 Chrome 93版本以后跨域
+
 ```bash
 open -a /Applications/Google | Chrome.app --args--disable-web-security--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure--user-data-dir=/
 User/Oyxiaoxi/Documents/MyChromeDevUserData

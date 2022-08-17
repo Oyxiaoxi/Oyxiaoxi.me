@@ -8,10 +8,6 @@ duration: Read · 2min
 description: 储存阳光，必有远方。
 ---
 
-<ClientOnly>
-  <Firefly/>
-</ClientOnly>
-
 生命见证过多少的真实，付出过怎样的努力，我希望就会有怎么的底气。
 
 17 岁
