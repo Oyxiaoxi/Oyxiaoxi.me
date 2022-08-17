@@ -12,32 +12,32 @@ const route = useRoute()
         <img v-show="!isDark" src="//cdn.3333120.com/static/logo.svg" alt="logo">
       </router-link>
 
-      <div class="nav__list sm:20 w-8 text-center">
-        <router-link to="/posts" title="Posts" :class="route.path === '/posts' ? '' : inactiveStyle">
+      <div class="nav__list sm:20 text-center">
+        <router-link to="/posts" title="Posts" class="w-8" :class="route.path === '/posts' ? '' : inactiveStyle">
           <div i-fa-solid:blog style="color:#2ea336" />
         </router-link>
-        <router-link to="/notes" title="Notes" :class="route.path === '/notes' ? '' : inactiveStyle">
+        <router-link to="/notes" title="Notes" class="w-8" :class="route.path === '/notes' ? '' : inactiveStyle">
           <div i-emojione-v1:note-pad />
         </router-link>
-        <router-link to="/travel" title="Travel" class="lt-md:hidden" :class="route.path === '/travel' ? '' : inactiveStyle">
+        <router-link to="/travel" title="Travel" class="w-8 lt-md:hidden" :class="route.path === '/travel' ? '' : inactiveStyle">
           <div i-twemoji:small-airplane />
         </router-link>
-        <router-link to="/prose" title="Travel" class="lt-md:hidden" :class="route.path === '/prose' ? '' : inactiveStyle">
+        <router-link to="/prose" title="Travel" class="w-8 lt-md:hidden" :class="route.path === '/prose' ? '' : inactiveStyle">
           <div i-emojione:rosette />
         </router-link>
-        <router-link to="/projects" title="Projects" :class="route.path === '/projects' ? '' : inactiveStyle">
+        <router-link to="/projects" title="Projects" class="w-8" :class="route.path === '/projects' ? '' : inactiveStyle">
           <div i-logos:producthunt />
         </router-link>
-        <router-link to="/bookmarks" title="Bookmarks" :class="route.path === '/bookmarks' ? '' : inactiveStyle">
+        <router-link to="/bookmarks" title="Bookmarks" class="w-8" :class="route.path === '/bookmarks' ? '' : inactiveStyle">
           <div i-noto-v1:bookmark-tabs />
         </router-link>
-        <router-link to="/photos" title="Photo" :class="route.path === '/photos' ? '' : inactiveStyle">
+        <router-link to="/photos" title="Photo" class="w-8" :class="route.path === '/photos' ? '' : inactiveStyle">
           <div i-logos:google-photos />
         </router-link>
-        <router-link to="/reviews" title="Reviews" :class="route.path === '/reviews' ? '' : inactiveStyle">
+        <router-link to="/reviews" title="Reviews" class="w-8 lt-md:hidden" :class="route.path === '/reviews' ? '' : inactiveStyle">
           <div i-flat-color-icons:biomass />
         </router-link>
-        <a href="https://oyxiaoxi.me/feed.xml" target="_blank" title="RSS" :class="Rss ? '' : inactiveStyle">
+        <a href="https://oyxiaoxi.me/feed.xml" class="w-8 lt-md:hidden" target="_blank" title="RSS" :class="Rss ? '' : inactiveStyle">
           <div i-logos:sugarss />
         </a>
         <!-- <a href="https://twitter.com/Oyxiaoxi" target="_blank" title="Twitter" class="w-8 text-center lt-md:hidden" :class="twitter ? '' : inactiveStyle">
