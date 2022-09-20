@@ -213,6 +213,7 @@
 .prose p {
   margin-top: 1.25em;
   margin-bottom: 1.25em;
+  text-align: justify;
 }
 .prose img {
   margin-top: 2em;

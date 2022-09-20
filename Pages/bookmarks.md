@@ -10,6 +10,7 @@ firefly: true
 ### Design
 
 - [Font Playground](https://play.typedetail.com/)
+- [Twitter](https://www.chankarunamuni.com/) - Apple Designer
 
 #### Color
 
@@ -74,3 +75,8 @@ firefly: true
 ### Diagram
 
 - [Isoflow](https://isoflow.io/)
+
+### Deploy
+
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
