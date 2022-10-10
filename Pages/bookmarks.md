@@ -24,6 +24,7 @@ firefly: true
 
 - [AnyWay](https://anyway.fm/) - 设计杂谈
 - [Talk Swift](https://talk.swift.gg/) - 程序员闲聊节目
+- [Drive & Listen](https://driveandlisten.herokuapp.com/)
 
 #### UI/UX
 
@@ -50,6 +51,9 @@ firefly: true
 - [TypeScript 入门教程](http://ts.xcatliu.com/)
 - [SQLBolt](https://sqlbolt.com) - Learn SQL with simple, interactive exercises.
 - [FRP](https://github.com/fatedier/frp) - frp is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the Internet. 
+- [devdocs](https://devdocs.io/) - devdocs Api Documentation
+- [web full stack system](https://senior-frontend.pages.dev/) - web全栈体系
+- [Linux-Command](https://wangchujiang.com/linux-command/) - 命令行搜索
 
 #### CSS
 
@@ -57,6 +61,7 @@ firefly: true
 - [CSS Vocabulary](http://apps.workflower.fi/vocabs/css/en)
 - [1-Line Layouts](http://1linelayouts.glitch.me/)
 - [Easing functions](https://easings.net/)
+- [CSS-Inspiration](https://chokcoco.github.io/CSS-Inspiration/)
 
 ### Resources
 
@@ -80,3 +85,8 @@ firefly: true
 
 - [Vercel](https://vercel.com/)
 - [Netlify](https://www.netlify.com/)
+
+### Notion
+
+- [All Templates & Tips](https://www.notion.so/accd7e483f084cc3b1a7a5eee69824bd?v=1c9f0f33c54249eaada7fcabdfdaae66)
+- [Template Database](https://www.notion.so/danny-hatcher/f7a07af4353e4a81b9be474ec87de4ac?v=ae899f91e993406e837be1d03718e34e)
