@@ -12,8 +12,8 @@ const router = useRouter()
 const route = useRoute()
 const content = ref<HTMLDivElement>()
 
-const base = 'https://antfu.me'
-const tweetUrl = computed(() => `https://twitter.com/intent/tweet?text=${encodeURIComponent(`Reading @antfu7\'s ${base}${route.path}\n\nI think...`)}`)
+const base = 'https://oyxiaoxi.me'
+const tweetUrl = computed(() => `https://twitter.com/intent/tweet?text=${encodeURIComponent(`Reading @Oyxiaoxi\'s ${base}${route.path}\n\nI think...`)}`)
 
 onMounted(() => {
   const navigate = () => {
