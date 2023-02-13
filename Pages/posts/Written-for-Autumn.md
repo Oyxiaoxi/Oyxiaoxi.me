@@ -50,21 +50,30 @@ description: 在四季轮换里，春入夏让人奔放，秋入冬使人沉稳�
 是布达拉宫的秋，周围的杨树林被染成金色，远远望着宫殿就像镀上了一层金，华丽又端庄。
 
 是罗布林卡的秋，漫步在落叶满地的小道上，听树叶被踩的声音，会感觉到心灵的安定。
-![Lobelinka](//cdn.3333120.com/article/Autumn/autumn-01.png)  
+<figure>
+  <img src="https://cdn.3333120.com/article/Autumn/autumn-01.png" alt="Lobelinka" />
+  <figcaption>罗布林卡</figcaption>
+</figure>
 
 是拉萨河的秋，远外白雪皑皑的山峰、冰封的湖泊、树木变得银装素裹，这时的拉萨河变更加纯净，美丽至极。
 
 是日喀则的秋，日喀则的秋天不只是单纯的金色，更像是雨后彩虹，给人带来心灵和灵魂的的洗涤，蓝天的映衬下，金色的树林显得格外美丽。大自然正用画笔勾勒浓墨重彩的色彩世界，远山近水，等我们赴一场难以抗拒的秋色诱惑。
 
 是宗山古堡的秋，秋天的古堡，多了一份温柔，少了一点冷冽。
-![Zongshan Fortress](//cdn.3333120.com/article/Autumn/Tibet-01.png)
+<figure>
+  <img src="//cdn.3333120.com/article/Autumn/Tibet-01.png" alt="Zongshan" />
+  <figcaption>宗山古堡</figcaption>
+</figure>
 
 是林芝的秋，像一幅色笔斑斓的油画，每逢金秋，林芝就成了一个绚丽无比的世界。
 
 是鲁朗林海的秋，原始灌木丛和茂密的云杉、松树林一望无际，高原草甸溪流蜿蜒，深秋树叶都绽放缤纷。
 
 是南迦巴瓦峰的秋，蓝蓝的天，洁白的雪山，峡谷的巨大落差都充满了宁静。
-![Namcha Barwa](//cdn.3333120.com/article/Autumn/Tibet-15.png)
+<figure>
+  <img src="//cdn.3333120.com/article/Autumn/Tibet-15.png" alt="Namcha Barwa" />
+  <figcaption>南迦巴瓦峰</figcaption>
+</figure>
 
 它是轻盈的，思念层层堆积，既轻既重，似「秋山的落叶」。它是清新的，似「水洗过似的，所想的事情都变得清新了」……
 

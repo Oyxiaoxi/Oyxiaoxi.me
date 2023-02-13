@@ -81,7 +81,10 @@ description: 2022 Annual Report。
 - 南迦巴瓦峰
 
 在山顶待 4 个小时，只为一张日照金山。
-![Tibet](https://cdn.3333120.com/article/Autumn/Tibet-16.jpg)
+<figure>
+  <img src="https://cdn.3333120.com/article/Autumn/Tibet-16.jpg" alt="南迦巴瓦峰" />
+  <figcaption>南迦巴瓦峰</figcaption>
+</figure>
 
 ## 关于音乐
 

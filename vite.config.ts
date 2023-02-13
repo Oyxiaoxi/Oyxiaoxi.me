@@ -1,4 +1,4 @@
-import { resolve } from 'path'
+import { basename, dirname, resolve } from 'path'
 import { defineConfig } from 'vite'
 import fs from 'fs-extra'
 import Pages from 'vite-plugin-pages'

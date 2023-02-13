@@ -76,4 +76,8 @@ May you have the courage to move forward an inch and have the ease to retreat a 
 生而无畏
 爱而自由
 
+29 岁
+年年有风，风吹年年，慢慢即漫漫；
+日日无事，事复日日，忙忙亦茫茫。
+
 The life is only about discovering what is unknow is this world it's also about discovering youself to understand who you are !

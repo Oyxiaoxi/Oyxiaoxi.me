@@ -176,3 +176,5 @@ I mean, I think It's wrong. And A.I. is coming for all our jobs, and we should b
 But alas, It still helps my point.
 
 Code is a Much better way to express intert than comments about code. So in general, if you feel like you need human language to describe your code, see if you could make your code more human.
+
+In short, you should be writing comments on why you are doing what you are doing, not what you are doing here!
