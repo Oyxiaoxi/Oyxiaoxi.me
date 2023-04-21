@@ -31,12 +31,12 @@ const route = useRoute()
         <router-link to="/bookmarks" title="Bookmarks" class="w-8" :class="route.path === '/bookmarks' ? '' : inactiveStyle">
           <div i-noto-v1:bookmark-tabs />
         </router-link>
-        <router-link to="/photos" title="Photo" class="w-8" :class="route.path === '/photos' ? '' : inactiveStyle">
+        <!-- <router-link to="/photos" title="Photo" class="w-8" :class="route.path === '/photos' ? '' : inactiveStyle">
           <div i-logos:google-photos />
-        </router-link>
-        <router-link to="/reviews" title="Reviews" class="w-8 lt-md:hidden" :class="route.path === '/reviews' ? '' : inactiveStyle">
+        </router-link> -->
+        <!-- <router-link to="/reviews" title="Reviews" class="w-8 lt-md:hidden" :class="route.path === '/reviews' ? '' : inactiveStyle">
           <div i-flat-color-icons:biomass />
-        </router-link>
+        </router-link> -->
         <a href="https://oyxiaoxi.me/feed.xml" class="w-8 lt-md:hidden" target="_blank" title="RSS" :class="Rss ? '' : inactiveStyle">
           <div i-logos:sugarss />
         </a>
