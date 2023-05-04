@@ -1,4 +1,5 @@
 [build.environment]
+  NPM_FLAGS = "--force"
   NODE_VERSION = "16"
 
 [build]
