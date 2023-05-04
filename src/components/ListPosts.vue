@@ -32,11 +32,11 @@ const posts = computed(() =>
 const getYear = (a: Date | string | number) => new Date(a).getFullYear()
 const isFuture = (a?: Date | string | number) => a && new Date(a) > new Date()
 const isSameYear = (a?: Date | string | number, b?: Date | string | number) => a && b && getYear(a) === getYear(b)
-const isSameGroup = (a: Post, b?: Post) => {
+function isSameGroup(a: Post, b?: Post) {
   return (isFuture(a.date) === isFuture(b?.date)) && isSameYear(a.date, b?.date)
 }
 
-const getGroupName = (p: Post) => {
+function getGroupName(p: Post) {
   if (isFuture(p.date))
     return 'Upcoming'
   return getYear(p.date)

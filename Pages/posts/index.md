@@ -8,4 +8,4 @@ firefly: true
 
 <SubNav/>
 
-<ListPosts only-date/>
+<ListPosts only-date />
