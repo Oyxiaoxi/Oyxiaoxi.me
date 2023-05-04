@@ -5,6 +5,12 @@ subtitle: List of projects that I am proud of
 description: List of projects that I am proud of
 firefly: true
 projects:
+  Current Focus:
+    - name: ''
+      link: ''
+      desc: ''
+      icon: ''
+      
   Vue Ecosystem:
     - name: 'Vue Composables'
       link: 'https://github.com/Oyxiaoxi/Vue-Composables'

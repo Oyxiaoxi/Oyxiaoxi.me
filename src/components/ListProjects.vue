@@ -1,10 +1,14 @@
 <script setup lang="ts">
 defineProps<{ projects: Record<string, any[]> }>()
+
+function slug(name: string) {
+  return name.toLowerCase().replace(/[\s\\\/]+/g, '-')
+}
 </script>
 
 <template>
-  <template v-for="key in Object.keys(projects)" :key="key" >
-    <h4 class="mt-10 font-bold">
+  <template v-for="key in Object.keys(projects)" :key="key">
+    <h4 :id="slug(key)" class="mt-10 font-bold">
       {{ key }}
     </h4>
     <div class="project-grid py-2 -mx-3 gap-2">
@@ -27,12 +31,31 @@ defineProps<{ projects: Record<string, any[]> }>()
           <div v-else class="text-3xl opacity-50" :class="item.icon || 'i-carbon-unknown'" />
         </div>
         <div class="flex-auto">
-          <div cla ss="text-normal">{{ item.name }}</div>
+          <div class="text-normal">{{ item.name }}</div>
           <div class="desc text-sm opacity-50 font-normal" v-html="item.desc" />
         </div>
       </a>
     </div>
   </template>
+  <div class="markdown pb5">
+    <p op75>
+      <em>
+        Thanks for getting intersted in my works! If like them or find them useful, consider
+        &nbsp;<a
+          href="https://github.com/sponsors/oyxiaoxi"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+        >sponsoring me</a>&nbsp;to support me keeping them sustainable. Cheers! :)
+      </em>
+    </p>
+  </div>
+  <div class="table-of-contents">
+    <ul>
+      <li v-for="key of Object.keys(projects)" :key="key">
+        <a :href="`#${slug(key)}`">{{ key }} </a>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <style scoped>
@@ -40,11 +63,13 @@ defineProps<{ projects: Record<string, any[]> }>()
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
+
 .project-grid a.item {
   padding: 0.8em 1em;
   background: transparent;
   font-size: 1.1rem;
 }
+
 .project-grid a.item:hover {
   background: #88888808;
 }
