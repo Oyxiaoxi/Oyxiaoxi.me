@@ -3,9 +3,9 @@ title: '清风入弦，静守花开'
 date: 2015-08-21T00:00:00Z
 draft: false
 lang: zh
-type: prose
 duration: Read · 2min
 description: 清风入弦，静守花开。
+plum: true
 ---
 
 [[toc]]

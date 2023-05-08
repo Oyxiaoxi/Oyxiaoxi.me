@@ -3,9 +3,9 @@ title: 'Written for Autumn'
 date: 2022-09-02T14:15:00Z
 draft: false
 lang: zh
-type: prose
 duration: Read · 5min
 description: 在四季轮换里，春入夏让人奔放，秋入冬使人沉稳，冬入春给人希望，而夏入秋，惹人百感交集。
+plum: true
 ---
 
 [[toc]]

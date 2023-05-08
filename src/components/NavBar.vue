@@ -1,53 +1,98 @@
 <script setup lang="ts">
 import { isDark } from '~/logics'
-const inactiveStyle = 'opacity-50 hover:opacity-50'
-const route = useRoute()
 </script>
 
 <template>
-  <div class="nav flex items-center">
-    <nav class="nav__content">
-      <router-link class="nav__logo w-8 h-8 lg:fixed select-none outline-none" to="/" focusable="false">
-        <img v-show="isDark" src="//cdn.3333120.com/static/logo-dark.svg" alt="logo">
-        <img v-show="!isDark" src="//cdn.3333120.com/static/logo.svg" alt="logo">
-      </router-link>
-
-      <div class="nav__list sm:20 text-center">
-        <router-link to="/posts" title="Posts" class="w-8" :class="route.path === '/posts' ? '' : inactiveStyle">
-          <div i-fa-solid:blog style="color:#2ea336" />
-        </router-link>
-        <router-link to="/notes" title="Notes" class="w-8" :class="route.path === '/notes' ? '' : inactiveStyle">
-          <div i-emojione-v1:note-pad />
-        </router-link>
-        <router-link to="/travel" title="Travel" class="w-8 lt-md:hidden" :class="route.path === '/travel' ? '' : inactiveStyle">
-          <div i-twemoji:small-airplane />
-        </router-link>
-        <router-link to="/prose" title="Travel" class="w-8 lt-md:hidden" :class="route.path === '/prose' ? '' : inactiveStyle">
-          <div i-emojione:rosette />
-        </router-link>
-        <router-link to="/projects" title="Projects" class="w-8" :class="route.path === '/projects' ? '' : inactiveStyle">
-          <div i-logos:producthunt />
-        </router-link>
-        <router-link to="/bookmarks" title="Bookmarks" class="w-8" :class="route.path === '/bookmarks' ? '' : inactiveStyle">
-          <div i-noto-v1:bookmark-tabs />
-        </router-link>
-        <!-- <router-link to="/photos" title="Photo" class="w-8" :class="route.path === '/photos' ? '' : inactiveStyle">
-          <div i-logos:google-photos />
-        </router-link> -->
-        <!-- <router-link to="/reviews" title="Reviews" class="w-8 lt-md:hidden" :class="route.path === '/reviews' ? '' : inactiveStyle">
-          <div i-flat-color-icons:biomass />
-        </router-link> -->
-        <a href="https://oyxiaoxi.me/feed.xml" class="w-8 lt-md:hidden" target="_blank" title="RSS" :class="Rss ? '' : inactiveStyle">
-          <div i-logos:sugarss />
+  <header class="header z-40">
+    <RouterLink
+      class="w-10 h-10 absolute lg:fixed lg:m-14 md:m-14 m-6 select-none outline-none"
+      to="/"
+      focusable="false"
+    >
+      <img v-show="isDark" src="//cdn.3333120.com/static/logo-dark.svg" alt="logo">
+      <img v-show="!isDark" src="//cdn.3333120.com/static/logo.svg" alt="logo">
+    </RouterLink>
+    <nav class="nav">
+      <div class="spacer" />
+      <div class="right">
+        <RouterLink to="/posts" title="Blog">
+          <span class="lt-md:hidden">Blog</span>
+          <div i-ri-article-line md:hidden />
+        </RouterLink>
+        <RouterLink to="/travel" title="Travel">
+          <span class="lt-md:hidden">Travel</span>
+          <div i-material-symbols-googler-travel md:hidden />
+        </RouterLink>
+        <RouterLink to="/projects" title="Projects">
+          <span class="lt-md:hidden">Projects</span>
+          <div i-ri-lightbulb-line md:hidden />
+        </RouterLink>
+        <RouterLink to="/bookmarks" title="Bookmarks">
+          <div i-ion-md-bookmarks />
+        </RouterLink>
+        <a href="https://twitter.com/Oyxiaoxi" target="_blank" title="Twitter" class="lt-md:hidden">
+          <feather-twitter />
         </a>
-        <!-- <a href="https://twitter.com/Oyxiaoxi" target="_blank" title="Twitter" class="w-8 text-center lt-md:hidden" :class="twitter ? '' : inactiveStyle">
-          <div i-logos:twitter />
-        </a> -->
-        <!-- <a href="https://github.com/Oyxiaoxi" target="_blank" title="GitHub" class="w-8 text-center lt-md:hidden" :class="github ? '' : inactiveStyle">
-          <div i-el:github />
-        </a> -->
+        <a href="https://github.com/Oyxiaoxi" target="_blank" title="GitHub" class="lt-md:hidden">
+          <div i-uil-github-alt />
+        </a>
+        <a href="/feed.xml" target="_blank" title="RSS" class="lt-md:hidden">
+          <div i-la-rss-square style="font-size:1.25rem; margin: 0 -0.125rem;" />
+        </a>
+        <toggle-theme />
       </div>
-      <toggle-theme />
     </nav>
-  </div>
+  </header>
 </template>
+
+<style scoped>
+.header h1 {
+  margin-bottom: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+.nav {
+  padding: 2rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto max-content;
+  box-sizing: border-box;
+}
+
+.nav > * {
+  margin: auto;
+}
+
+.nav img {
+  margin-bottom: 0;
+}
+
+.nav a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.2s ease;
+  opacity: 0.6;
+  outline: none;
+}
+
+.nav a:hover {
+  opacity: 1;
+  text-decoration-color: inherit;
+}
+
+.nav .right {
+  display: grid;
+  grid-gap: 1.2rem;
+  grid-auto-flow: column;
+}
+
+.nav .right > * {
+  margin: auto;
+}
+</style>

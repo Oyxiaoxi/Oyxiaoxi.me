@@ -3,9 +3,9 @@ title: 'P.A.R.A'
 date: 2021-05-28T08:13:00Z
 draft: false
 lang: zh
-type: prose
 duration: Read · 15min
 description: 根据信息的可操作性程度，对信息进行聚焦或转移。
+plum: true
 ---
 
 [[toc]]

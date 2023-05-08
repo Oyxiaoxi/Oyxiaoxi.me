@@ -3,9 +3,9 @@ title: '心若不动，风又奈何？你若不伤，岁月无恙。'
 date: 2013-10-14T00:00:00Z
 draft: false
 lang: zh
-type: prose
 duration: Read · 3min
 description: 心若不动，风又奈何？你若不伤，岁月无恙。。
+plum: true
 ---
 
 [[toc]]

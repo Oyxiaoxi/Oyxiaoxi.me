@@ -13,7 +13,7 @@ const route = useRoute()
 const content = ref<HTMLDivElement>()
 
 const base = 'https://oyxiaoxi.me'
-const tweetUrl = computed(() => `https://twitter.com/intent/tweet?text=${encodeURIComponent(`Reading @Oyxiaoxi\'s ${base}${route.path}\n\nI think...`)}`)
+const tweetUrl = computed(() => `https://twitter.com/intent/tweet?text=${encodeURIComponent(`Reading @oyxiaoxi\'s ${base}${route.path}\n\nI think...`)}`)
 
 onMounted(() => {
   const navigate = () => {
@@ -65,31 +65,41 @@ onMounted(() => {
 </script>
 
 <template>
-  <ClientOnly v-if="frontmatter.firefly">
-    <Firefly />
+  <ClientOnly v-if="frontmatter.plum">
+    <Plum />
   </ClientOnly>
   <div v-if="frontmatter.display ?? frontmatter.title" class="prose m-auto mb-8">
-    <h1 class="mb-0">
+    <h1 class="mb-0 slide-enter">
       {{ frontmatter.display ?? frontmatter.title }}
     </h1>
-    <p v-if="frontmatter.date" class="opacity-50 !-mt-2">
+    <p
+      v-if="frontmatter.date"
+      class="opacity-50 !-mt-2 slide-enter"
+    >
       {{ formatDate(frontmatter.date) }} <span v-if="frontmatter.duration">· {{ frontmatter.duration }}</span>
     </p>
-    <p v-if="frontmatter.subtitle" class="opacity-50 !-mt-6 italic">
+    <p
+      v-if="frontmatter.subtitle"
+      class="opacity-50 !-mt-6 italic slide-enter"
+    >
       {{ frontmatter.subtitle }}
     </p>
   </div>
   <article ref="content">
     <slot />
   </article>
-  <div v-if="route.path !== '/'" class="prose m-auto mt-8 mb-8">
-    <a v-if="frontmatter.duration" :href="tweetUrl" target="_blank" op50>comment on twitter</a>
+  <div v-if="route.path !== '/'" class="prose m-auto mt-8 mb-8 slide-enter animate-delay-500">
+    <template v-if="frontmatter.duration">
+      <span font-mono op50>> </span>
+      <span op50>comment on </span>
+      <a :href="tweetUrl" target="_blank" op50>twitter</a>
+    </template>
     <br>
-    <router-link
+    <span font-mono op50>> </span>
+    <RouterLink
       :to="route.path.split('/').slice(0, -1).join('/') || '/'"
-      class="font-mono no-underline opacity-50 hover:opacity-75"
-    >
-      cd ..
-    </router-link>
+      class="font-mono op50 hover:op75"
+      v-text="'cd ..'"
+    />
   </div>
 </template>

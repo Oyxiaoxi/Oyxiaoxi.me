@@ -3,9 +3,9 @@ title: 'File synchronisation between servers'
 date: 2019-08-19T09:00:00Z
 draft: false
 lang: en
-type: notes
 duration: Read · 1min
 description: File synchronisation between servers。
+plum: true
 ---
 
 [[toc]]

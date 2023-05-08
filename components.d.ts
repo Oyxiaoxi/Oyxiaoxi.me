@@ -11,16 +11,21 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     AppLink: typeof import('./src/components/AppLink.vue')['default']
     Elk: typeof import('~icons/el/k')['default']
-    Firefly: typeof import('./src/components/Firefly.vue')['default']
+    FeatherTwitter: typeof import('~icons/feather/twitter')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
     ListPosts: typeof import('./src/components/ListPosts.vue')['default']
     ListProjects: typeof import('./src/components/ListProjects.vue')['default']
     ListReviews: typeof import('./src/components/ListReviews.vue')['default']
     NavBar: typeof import('./src/components/NavBar.vue')['default']
+    Plum: typeof import('./src/components/Plum.vue')['default']
     Post: typeof import('./src/components/Post.vue')['default']
+    RiMoonLine: typeof import('~icons/ri/moon-line')['default']
+    RiSunLine: typeof import('~icons/ri/sun-line')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SubNav: typeof import('./src/components/SubNav.vue')['default']
     ToggleTheme: typeof import('./src/components/ToggleTheme.vue')['default']
+    WrapperDemo: typeof import('./src/components/WrapperDemo.vue')['default']
+    WrapperPost: typeof import('./src/components/WrapperPost.vue')['default']
   }
 }

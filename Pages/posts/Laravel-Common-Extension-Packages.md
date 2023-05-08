@@ -3,9 +3,9 @@ title: 'Larvel Common Extension Packages'
 date: 2021-11-18T18:00:00Z
 draft: false
 lang: en
-type: notes
 duration: Read · 8min
 description: HLarvel Common Extension Packages。
+plum: true
 ---
 
 [[toc]]

@@ -3,9 +3,9 @@ title: '千山万水，代我见你。'
 date: 2023-01-30T13:56:00Z
 draft: false
 lang: zh
-type: prose
 duration: Read · 5min
 description: SomeTime。
+plum: true
 ---
 
 [[toc]]

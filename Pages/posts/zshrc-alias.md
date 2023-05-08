@@ -3,9 +3,9 @@ title: 'Zshrc Alias'
 date: 2022-05-29T15:41:00Z
 draft: false
 lang: en
-type: notes
 duration: Read · 3min
 description: Zshrc Alias。
+plum: true
 ---
 
 [[toc]]

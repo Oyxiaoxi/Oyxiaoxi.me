@@ -3,7 +3,7 @@ title: Reviews - Oyxiaoxi
 display: Reviews
 subtitle: Some comments from friends
 description: Some comments from friends
-firefly: true
+plum: true
 comments:
   - name: 'Calvin'
     desc: '晓锡做事有geek精神，善于钻研，性格稍显固执，专一，尽量融入集体，有时爱钻牛角尖。'

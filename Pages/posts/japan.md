@@ -6,6 +6,7 @@ lang: zh
 type: travel
 duration: Read · 1min
 description: Japan Travel itineraries。
+plum: true
 ---
 
 [[toc]]

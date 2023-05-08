@@ -3,9 +3,9 @@ title: 'Homestead Change PhP Version'
 date: 2022-04-02T18:00:00Z
 draft: false
 lang: zh
-type: notes
 duration: Read · 1min
 description: Homestead Change PhP Version。
+plum: true
 ---
 
 [[toc]]

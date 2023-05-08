@@ -3,9 +3,9 @@ title: '我还是很喜欢你 ...'
 date: 2017-11-11T00:00:00Z
 draft: false
 lang: zh
-type: prose
 duration: Read · 7min
 description: 我还是很喜欢你，或许未来也不会跟你提起，就让他成为秘密。
+plum: true
 ---
 
 [[toc]]

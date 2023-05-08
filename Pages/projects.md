@@ -3,7 +3,7 @@ title: Projects - Oyxiaoxi
 display: Projects
 subtitle: List of projects that I am proud of
 description: List of projects that I am proud of
-firefly: true
+plum: true
 projects:
   Current Focus:
     - name: ''
@@ -89,5 +89,7 @@ projects:
       icon: 'i-ri:advertisement-fill'
 ---
 [[toc]]
+
+<!-- @layout-full-width -->
 
 <ListProjects :projects="frontmatter.projects"/>

@@ -5,6 +5,7 @@ draft: false
 lang: en
 duration: Read · 7min
 description: Github Copilot。
+plum: true
 ---
 
 [[toc]]

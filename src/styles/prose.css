@@ -1,6 +1,6 @@
 .prose {
   color: var(--fg);
-  max-width: 70ch;
+  max-width: 65ch;
   font-size: 1rem;
   line-height: 1.75;
 }
@@ -195,7 +195,9 @@
   padding-right: 0.5714286em;
   padding-bottom: 0.5714286em;
   padding-left: 0.5714286em;
+  color:#e5e7eb;
 }
+
 .prose tbody tr {
   border-bottom-width: 1px;
   border-bottom-color: #e5e7eb;

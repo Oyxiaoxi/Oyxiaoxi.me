@@ -5,6 +5,7 @@ draft: false
 lang: zh
 duration: Read · 2min
 description: 利用中间件处理 GoLang Gin CORS 跨域。
+plum: true
 ---
 
 [[toc]]

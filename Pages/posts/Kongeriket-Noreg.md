@@ -6,6 +6,7 @@ lang: zh
 type: travel
 duration: Read · 1min
 description: Kongeriket Noreg Travel itineraries。
+plum: true
 ---
 
 [[toc]]

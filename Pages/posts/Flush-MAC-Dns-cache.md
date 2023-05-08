@@ -3,9 +3,9 @@ title: 'Find Files'
 date: 2022-05-16T09:00:00Z
 draft: false
 lang: zh
-type: notes
 duration: Read · 1min
 description: Forced Cross Domain。
+plum: true
 ---
 
 [[toc]]

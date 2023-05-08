@@ -3,9 +3,9 @@ title: 'Iptables Block User IP'
 date: 2017-03-06T09:00:00Z
 draft: false
 lang: zh
-type: notes
 duration: Read · 1min
 description: Forced Cross Domain。
+plum: true
 ---
 
 [[toc]]

@@ -6,6 +6,7 @@ lang: zh
 type: travel
 duration: Read · 1min
 description: Kashgar Prefecture Travel itineraries。
+plum: true
 ---
 
 [[toc]]

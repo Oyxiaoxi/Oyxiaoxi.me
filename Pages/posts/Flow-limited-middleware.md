@@ -5,6 +5,7 @@ draft: false
 lang: zh
 duration: Read · 8min
 description: Flow-limited middleware。
+plum: true
 ---
 
 [[toc]]

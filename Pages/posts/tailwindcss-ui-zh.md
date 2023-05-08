@@ -5,6 +5,7 @@ draft: false
 lang: zh
 duration: Read · 4min
 description: TailWind CSS & TailWind UI。
+plum: true
 ---
 
 [[toc]]

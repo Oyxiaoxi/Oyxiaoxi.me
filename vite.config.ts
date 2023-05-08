@@ -60,8 +60,12 @@ export default defineConfig({
     }),
 
     Markdown({
-      wrapperComponent: 'post',
-      wrapperClasses: 'prose m-auto',
+      wrapperComponent: id => id.includes('/demo/')
+        ? 'WrapperDemo'
+        : 'WrapperPost',
+      wrapperClasses: (id, code) => code.includes('@layout-full-width')
+        ? ''
+        : 'prose m-auto slide-enter-content',
       headEnabled: true,
       markdownItOptions: {
         quotes: '""\'\'',

@@ -5,6 +5,7 @@ draft: false
 lang: zh
 duration: Read · 15min
 description: 2021 Annual Report。
+plum: true
 ---
 
 [[toc]]

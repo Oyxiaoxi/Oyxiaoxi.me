@@ -1,6 +1,6 @@
 ---
 title: Wallpaper - Oyxiaoxi
-firefly: true
+plum: true
 display: Photos
 subtitle: Some images taken on the computer wallpaper and while travelling
 description: Some images taken on the computer wallpaper and while travelling

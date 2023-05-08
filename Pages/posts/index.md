@@ -1,7 +1,7 @@
 ---
 title: Blog - Oyxiaoxi
 display: ''
-firefly: true
+plum: true
 ---
 
 [[toc]]

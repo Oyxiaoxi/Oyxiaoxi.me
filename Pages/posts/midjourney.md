@@ -5,6 +5,7 @@ draft: false
 lang: zh
 duration: Read · 15min
 description: MidJourney
+plum: true
 ---
 
 [[toc]]

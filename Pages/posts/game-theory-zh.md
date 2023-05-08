@@ -3,9 +3,9 @@ title: '博弈论'
 date: 2021-06-28T11:02:00Z
 draft: false
 lang: zh
-type: prose
 duration: Read · 2min
 description: 互惠宽容地与人相处之美。
+plum: true
 ---
 
 [[toc]]

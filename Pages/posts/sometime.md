@@ -3,9 +3,9 @@ title: 'SomeTime'
 date: 2021-06-30T13:48:00Z
 draft: false
 lang: en
-type: prose
 duration: Read · 5min
 description: SomeTime。
+plum: true
 ---
 
 [[toc]]

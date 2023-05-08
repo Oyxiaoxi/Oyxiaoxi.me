@@ -3,9 +3,9 @@ title: '还能梦多久 ...'
 date: 2015-09-26T00:00:00Z
 draft: false
 lang: zh
-type: prose
 duration: Read · 3min
 description: 还能梦多久。
+plum: true
 ---
 
 [[toc]]

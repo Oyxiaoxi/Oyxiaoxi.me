@@ -3,9 +3,9 @@ title: '储存阳光，必有远方。'
 date: 2022-04-09T15:00:00Z
 draft: false
 lang: zh
-type: prose
 duration: Read · 2min
 description: 储存阳光，必有远方。
+plum: true
 ---
 
 [[toc]]

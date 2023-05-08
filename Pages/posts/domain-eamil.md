@@ -5,6 +5,7 @@ draft: false
 lang: en
 duration: Read · 2min
 description: Domain Name Custom Mailboxes。
+plum: true
 ---
 
 [[toc]]

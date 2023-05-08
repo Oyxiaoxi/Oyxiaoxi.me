@@ -1,6 +1,5 @@
 import '@unocss/reset/tailwind.css'
 import './styles/main.css'
-import './styles/navbar.css'
 import './styles/prose.css'
 import './styles/markdown.css'
 import 'uno.css'
@@ -22,7 +21,7 @@ const routes = autoRoutes.map((i) => {
   }
 })
 
-const scrollBehavior = (to: any, from: any, savedPosition: any) => {
+function scrollBehavior(to: any, from: any, savedPosition: any) {
   if (savedPosition)
     return savedPosition
   else

@@ -5,6 +5,7 @@ draft: false
 lang: zh
 duration: Read · 18min
 description: JSON related small requirements solution process and ideas。
+plum: true
 ---
 
 [[toc]]

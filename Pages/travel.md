@@ -1,7 +1,7 @@
 ---
 title: Travel - Oyxiaoxi
 display: ''
-firefly: true
+plum: true
 ---
 
 [[toc]]

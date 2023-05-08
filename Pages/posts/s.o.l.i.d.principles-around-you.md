@@ -5,6 +5,7 @@ draft: false
 lang: en
 duration: Read · 5min
 description: S.O.L.I.D. Principles Around You。
+plum: true
 ---
 
 [[toc]]

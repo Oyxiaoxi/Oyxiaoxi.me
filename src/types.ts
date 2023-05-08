@@ -7,4 +7,7 @@ export interface Post {
   platform?: string
   duration?: string
   recording?: string
+  radio?: boolean
+  video?: boolean
+  inperson?: boolean
 }

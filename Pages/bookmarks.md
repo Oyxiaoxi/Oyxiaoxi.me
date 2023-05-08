@@ -2,7 +2,7 @@
 title: Bookmarks - Oyxiaoxi
 display: Bookmarks
 subtitle: Some of My favorite websites/tools with excellent design and UX that I highly recommend
-firefly: true
+plum: true
 ---
 
 [[toc]]

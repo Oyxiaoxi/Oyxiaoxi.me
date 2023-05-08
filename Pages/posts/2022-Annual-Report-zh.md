@@ -5,6 +5,7 @@ draft: false
 lang: zh
 duration: Read · 25min
 description: 2022 Annual Report。
+plum: true
 ---
 
 [[toc]]
