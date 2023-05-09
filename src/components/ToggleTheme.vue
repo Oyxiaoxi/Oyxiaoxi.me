@@ -1,16 +1,11 @@
 <script setup lang="ts">
-import { isDark } from '~/logics'
-
-function toggleDark() {
-  isDark.value = !isDark.value
-}
+import { toggleDark } from '~/logics'
 </script>
 
 <template>
   <div class="w-8 text-center py-9 lt-md:hidden">
     <a class="select-none" title="Toggle Color Scheme" @click="toggleDark">
-      <ri-moon-line v-show="isDark" />
-      <ri-sun-line v-show="!isDark" />
+      <div i-ri-sun-line dark:i-ri-moon-line />
     </a>
   </div>
 </template>
