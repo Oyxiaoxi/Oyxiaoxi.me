@@ -54,6 +54,9 @@ plum: true
 - [devdocs](https://devdocs.io/) - devdocs Api Documentation
 - [web full stack system](https://senior-frontend.pages.dev/) - web全栈体系
 - [Linux-Command](https://wangchujiang.com/linux-command/) - 命令行搜索
+- [rauno](https://rauno.me/) - rauno
+- [shud](https://shud.in/) - shud
+- [paco](https://paco.me) - paco
 
 #### CSS
 
