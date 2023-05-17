@@ -490,3 +490,37 @@
 .prose-sm > :last-child {
   margin-bottom: 0;
 }
+
+.conic {
+  background: conic-gradient(from var(--shimmer-angle),#0f172a 0%, #64748b 10%, #0f172a 20%);
+  position: relative;
+}
+.conic::after{
+  content: "Hi, I'm a button";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:0.15rem;
+  left:0.15rem;
+  right: 0.15rem;
+  bottom: 0.15rem;
+  background-color: #0f172a;
+  border-radius: 1rem;
+}
+.animate-shimmer {
+  animation: shimmer 3s linear infinite;
+}
+@property --shimmer-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+@keyframes shimmer{
+  0%{
+    --shimmer-angle: 0deg;
+  }
+  100%{
+    --shimmer-angle: 360deg;
+  }
+}
