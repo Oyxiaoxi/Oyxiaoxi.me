@@ -17,6 +17,7 @@ declare module '@vue/runtime-core' {
     ListPosts: typeof import('./src/components/ListPosts.vue')['default']
     ListProjects: typeof import('./src/components/ListProjects.vue')['default']
     ListReviews: typeof import('./src/components/ListReviews.vue')['default']
+    Logo: typeof import('./src/components/Logo.vue')['default']
     NavBar: typeof import('./src/components/NavBar.vue')['default']
     Plum: typeof import('./src/components/Plum.vue')['default']
     Post: typeof import('./src/components/Post.vue')['default']
